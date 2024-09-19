@@ -62,8 +62,8 @@ struct ReturnType / std::coroutine_traits<ReturnType, ...> {
   \begin{lstlisting}[style=cpp20,numbers=left]
 struct Awaitable {
   bool await_ready();
-  void await_suspend(std::coroutine_handle<promise_type>);
-  void await_resume(); 
+  auto await_suspend(std::coroutine_handle<promise_type>);
+  auto await_resume();
 };
 \end{lstlisting}
 
@@ -99,8 +99,8 @@ struct (*@\tikz[baseline,inner sep=0]\node[anchor=base](ar100){};@*)ReturnType(*
   \begin{lstlisting}[style=cpp20,numbers=left]
 struct (*@\tikz[baseline,inner sep=0]\node[anchor=base](ar101){};@*)Awaitable(*@\tikz[baseline,inner sep=0]\node[anchor=base](br101){};@*) {
   bool await_ready();
-  void await_suspend(std::coroutine_handle<(*@\tikz[baseline,inner sep=0]\node[anchor=base](cr101){};@*)promise_type(*@\tikz[baseline,inner sep=0]\node[anchor=base](dr101){};@*)>);
-  void await_resume(); 
+  auto await_suspend(std::coroutine_handle<(*@\tikz[baseline,inner sep=0]\node[anchor=base](cr101){};@*)promise_type(*@\tikz[baseline,inner sep=0]\node[anchor=base](dr101){};@*)>);
+  auto await_resume();
 };
 \end{lstlisting}
   
