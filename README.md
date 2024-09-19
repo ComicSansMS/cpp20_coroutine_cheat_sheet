@@ -1,9 +1,9 @@
 C++20 Coroutine Cheat Sheet
 ===
 
-[Download PDF](https://github.com/ComicSansMS/cpp20_coroutine_cheat_sheet/releases/download/v1.1/coroutines_cheat_sheet.pdf)
+[Download PDF](https://github.com/ComicSansMS/cpp20_coroutine_cheat_sheet/releases/download/v1.2/coroutines_cheat_sheet.pdf)
 
-[Download PDF (no colors)](https://github.com/ComicSansMS/cpp20_coroutine_cheat_sheet/releases/download/v1.1/coroutines_cheat_sheet_bw.pdf)
+[Download PDF (no colors)](https://github.com/ComicSansMS/cpp20_coroutine_cheat_sheet/releases/download/v1.2/coroutines_cheat_sheet_bw.pdf)
 
 
 License
